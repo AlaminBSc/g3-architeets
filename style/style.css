@@ -1,0 +1,162 @@
+/*     Common style   */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+} 
+body{
+    margin: 0 auto;
+    max-width: 1240px;
+   
+} 
+/* Header section style */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 100%;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.nav-title{
+    color: #131313;
+    font: weight 700px;;
+    font: size 45px;;
+}
+.left-site{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.left-site-a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+} 
+/* header second part    */
+.second-part-header{
+    text-align: center;
+}
+
+.second-part-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-top: 50px;
+}
+.second-part-about{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 22px;
+    border:none;
+    margin-bottom: 30px;
+}
+
+/* header third part    */
+.third-part-header{
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+.img-div{
+    width:70%;
+    height:auto;
+    margin: 0px auto;
+}
+.img-header{
+    width:100%;
+    height:100%;
+} 
+/* main section start   */
+
+/* main section one    style */
+
+.main-section-one{
+    height: auto;
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+    width: 70%;
+} 
+.main-section-one >div {
+    flex: 1;
+}
+.main-sec-one-right-site{ 
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    
+  
+}  
+.img-div-main{  
+   width: 100%;
+   height: 100%; 
+   border-radius: 8px;
+   
+}
+.main-sec-one-left-site{ 
+   margin-top: 100px;
+   
+} 
+.three-color-title{
+    color: #727272;
+    font-weight: 500;
+    font-size: 42px;
+
+}
+.features{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.of-our{
+    color: #131313;
+    font-weight: 700;
+} 
+.main-sec-one-about{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom:24px; 
+}
+/* Responsive for mobile */
+
+@media screen and (max-width:576px) { 
+      .nav-container{
+        text-align: center;
+      }
+      nav{
+        flex-direction: column;
+        padding: auto;
+       
+      } 
+      
+      .left-site{
+        flex-direction: column;
+       
+      }
+    
+     .main-section-one{
+        flex-direction: column;
+     } 
+
+     .main-sec-one-right-site{
+        grid-template-columns: repeat(1,1fr);
+     }
+} 
