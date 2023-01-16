@@ -270,6 +270,41 @@ nav{
     font-size: 16px;
     color: #727272;
 }
+  
+/*     -- Extra  section add now       -    */
+.extra{
+    width:90%;
+    background: #f1f3f6;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.extra-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}  
+.extra-img{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px ;
+} 
+.blog-exta{
+    width: 22.5%;
+	/* position: relative; */
+	overflow: hidden;
+}
+.blog-exta img{
+    width: 100%;
+    height: 100%;
+}
+.happy-codding{
+    
+    color:grey;
+    font-size: 16px;
+}
+
 
 /* Main section four style  */
 .main-section-four{
@@ -376,6 +411,17 @@ footer{
     gap: 30px;
 
 }
+/*     -- Extra  section add now       -    */
+.extra-img{
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
 
+.blog-exta{
+    width:100%;
+	/* position: relative; */
+	overflow: hidden;
+}
 
 } 
